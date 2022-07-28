@@ -4,7 +4,7 @@ setDTthreads(threads = 2)
 library(GenomicRanges)
 library(dplyr)
 
-path_to_TitanCNA = "/path/to/TitanCNA" #modify path to TitanCNA tool here
+path_to_TitanCNA = "/home/mi724/Tools/TitanCNA" #modify path to TitanCNA tool here
 source(paste0(path_to_TitanCNA,"/R/utils.R"))
 
 args <- commandArgs(TRUE)
