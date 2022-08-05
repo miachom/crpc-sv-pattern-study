@@ -8,7 +8,7 @@ samples <- rownames(geneCNmat)
 cp_threshold <- 0.8
 
 #load ploidy information
-ploidy <- read.csv("../../../metadata/all_ploidy.csv")[,c("sample","category","value")]
+ploidy <- read.csv("../../../metadata/DTRCC4_ploidy.csv")[,c("sample","category","value")]
 
 #table(as.character(ploidy$sample)==samples)
 
