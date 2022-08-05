@@ -1,1 +1,1 @@
-Rscript makeMatrixFromTITAN-ICHOR_segBased_hg38.R /home/ma1111/tools/TitanCNA_SV_WGS/results/titan/hmm/optimalClusterSolution/ ../../../metadata/mart_export-2.txt ../../../metadata/sampleList_tRCC.txt common Gene 1000 DTRCC4_biomart
+Rscript makeMatrixFromTITAN-ICHOR_segBased_hg38.R /home/ma1111/tools/TitanCNA_SV_WGS/results/titan/hmm/optimalClusterSolution/ ../../../metadata/mart_export-2.txt ../../../metadata/sampleList_tRCC.txt common Gene 1000 Mingkee_Titan_samples
