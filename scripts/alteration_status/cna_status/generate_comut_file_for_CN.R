@@ -18,6 +18,7 @@ gene_dat <- read.table("../../../metadata/newGeneList.txt", sep="\t", head=T)
 gene_list <- as.character(gene_dat$symbol)
 match_id <- as.vector(match(gene_list, colnames(geneCNmat)))
 match_id <- match_id[!is.na(match_id)] 
+gene_list<-gene_list[which(!is.na(match_id))]
 names(match_id) <- gene_list
 
 
