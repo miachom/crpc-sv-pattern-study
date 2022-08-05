@@ -108,7 +108,7 @@ getBinCNOverlap <- function(x, y, func = "mean", type = "any", colToReturn = "Co
 } 
 
 files <- list.files(inDir, pattern = cnExt, full.names = TRUE)
-ids <- str_extract(basename(files), "[0-9A-Za-z-]+")
+ids <- str_replace(basename(files),"_cluster[1-4].titan.ichor.seg.txt","")
 names(files) <- ids
 files <- files[samples[[1]]]
 numSamples <- length(files)
