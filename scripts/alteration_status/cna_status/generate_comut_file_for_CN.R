@@ -13,7 +13,7 @@ ploidy <- read.csv("../../../metadata/DTRCC4_ploidy.csv")[,c("sample","category"
 #table(as.character(ploidy$sample)==samples)
 
 #load 159 gene list
-gene_dat <- read.table("../../../metadata/combined_gene_list_159.txt", sep="\t", head=T)
+gene_dat <- read.table("../../../metadata/newGeneList.txt", sep="\t", head=T)
 
 gene_list <- as.character(gene_dat$symbol)
 match_id <- as.vector(match(gene_list, colnames(geneCNmat)))
