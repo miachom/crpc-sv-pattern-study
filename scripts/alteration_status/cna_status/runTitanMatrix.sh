@@ -1,1 +1,1 @@
-Rscript makeMatrixFromTITAN-ICHOR_segBased_hg38.R /home/mi724/tools/TitanCNA_SV_WGS/results/titan/hmm/optimalClusterSolution/ ../../../metadata/mart_export-2.txt ../../../metadata/sampleList_tRCC.txt common Gene 1000 Maria_Titan_samples
+Rscript makeMatrixFromTITAN-ICHOR_segBased_hg38.R /home/mi724/tools/TitanCNA_SV_WGS/results/titan/hmm/optimalClusterSolution/ ../../../metadata/mart_export-2.txt ../../../metadata/MariasampleList_tRCC.txt common Gene 1000 Maria_Titan_samples
