@@ -8,7 +8,7 @@ samples <- rownames(geneCNmat)
 cp_threshold <- 0.8
 
 #load ploidy information
-ploidy <- read.csv("../../../metadata/DTRCC4_ploidy.csv")[,c("sample","category","value")]
+ploidy <- read.csv("../../../metadata/Maria_ploidy.csv")[,c("sample","category","value")]
 
 #table(as.character(ploidy$sample)==samples)
 
@@ -74,5 +74,5 @@ for(i in 1:length(match_id)){
 out_alteration_all <- do.call(rbind, alteration_list)
 colnames(out_alteration_all) <- c("sample","category","value")
  
-write.csv(out_alteration_all, sprintf("all_comut_CN_cp%s.csv", cp_threshold), quote=F)
+write.csv(out_alteration_all, sprintf("all_comut_CN_Maria.csv", cp_threshold), quote=F)
 
