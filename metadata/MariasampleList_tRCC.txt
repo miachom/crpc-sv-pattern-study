@@ -1,5 +1,0 @@
-Sample
-DTRCC_13_LLN
-DTRCC_15_Rkidney
-B_TRCC_18_Tumor
-RTRCC_17_Kidney
